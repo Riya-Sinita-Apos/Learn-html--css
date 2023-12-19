@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>DOCUMENT FORM</title>
+</head>
+<body>
+    <form>
+    <lable for="name"> Name:</lable><input type="text" id="name" name="name"><br><br>
+    <lable for="email">Email:</lable><input type="email" id="email" name="email"><br><br>
+    <lable for="password"> Type Password:</lable><input type="password" id="pwws1" name="pwws1"><br><br>
+    <lable for="password">Conform your password:</lable><input type="password" id="pwws2" name="pwws2"><br><br>
+    <button onclick="validate()">Submit</button>
+</form>
+<script>
+    let ps1=document.getElementById("pwws1");
+    let ps2=document.getElementById("pwws2");
+    function validate()
+    {
+        if(ps1.value==ps2.value)
+        alert("Password match")
+    else
+    alert("Password doesn't match")
+
+    }
+
+</script>
+</body>
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Forms Document</title>
+</head>
+
+<body>
+    <form method="post">
+        <caption align="center"><u>
+                <h1>STUDENT DETAILS</h1>
+            </u></caption><br><br>
+        <lable for="fname">Enter Your Name:</lable><input type="text" id="fname" name="fname"><br><br>
+        <lable for="dbirth">Enter Your Date birth:</lable><input type="Date" id="dbirth" name="dbirth"><br><br>
+        <lable for="gender">Gender:</lable>
+        <input type="radio" id="gender" name="gender">
+        <lable for="male">Male:</lable>
+        <input type="radio" id="gender" name="gender">
+        <lable for="female">Female</lable>
+        <input type="radio" id="gender" name="gender">
+        <lable for="other">Other</lable><br><br>
+        <label for="country"> Choose your country:</label>
+        <select for="country" id="country">
+            <option value="india">India</option>
+            <option value="america">America</option>
+            <option value="australia">Australia</option>
+            <option value="aland">Åland</option>
+        </select><br><br>
+        <label for="language">Select your language:</label>
+        <input type="checkbox" id="engilsh" name="language"><label for="engilsh"> Engilsh</label>
+        <input type="checkbox" id="kannnda" name="language"><label for="kananda"> Knanada</label>
+        <input type="checkbox" id="hindi" name="language"><label for="hindi">Hindi</label>
+        <input type="checkbox" id="malayalam" name="language"><label for="malayalam">Malayalam</label>
+        <input type="checkbox" id="kokani" name="language"><label for="kokani">Kokani</label><br><br>
+        <label for="contact">Enter your contact number:</label><input type="tel" id="contact" name="contact"
+            pattern="[0-9]{10}"><br><br>
+        <label for="application">Enter your Application number:</label><input type="number" id="application"
+            name="application"><br><br>
+        <label for="address">Enter Your Address:</label>
+        <textarea id="address" name="address" cols="30" rows="2">
+    </textarea><br><br>
+        <label for="course"> Choose your course:</label>
+        <select for="course" id="course">
+            <option value="bca">BCA</option>
+            <option value="bba">BBA</option>
+            <option value="bcom">BCOM</option>
+            <option value="ba">BA</option>
+            <option value="bsc">BSC</option>
+        </select><br><br>
+        <input type="submit" value="SUBMIT">
+        <input type="reset" value="Reset">
+    </form>
+</body>
+
+</html
